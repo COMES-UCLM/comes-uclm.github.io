@@ -4,74 +4,109 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Proyectos de investigación del grupo COMES de la Universidad de Castilla-La Mancha.">
+  <meta name="theme-color" content="#083b74">
   <title>COMES | Proyectos de investigación</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <main class="page-shell">
-    <header class="hero">
-      <img
-        class="comes-logo"
-        src="assets/img/logo-comes.png"
-        alt="COMES - Mecánica de los Medios Continuos, Ingeniería de Estructuras y Materiales"
-      >
+  <div class="page-bg" aria-hidden="true"></div>
 
-      <div class="hero-copy">
-        <p class="eyebrow">Grupo de investigación COMES</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="Inicio — Grupo COMES">
+        <img class="comes-logo" src="assets/img/logo-comes.png" alt="COMES — Mecánica de los Medios Continuos, Ingeniería de Estructuras y Materiales">
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Grupo de investigación COMES · UCLM</p>
         <h1>Proyectos de investigación</h1>
-        <p class="intro">Acceso a las páginas web de los proyectos desarrollados por el grupo.</p>
+        <p class="hero-text">Investigación en mecánica de los medios continuos, ingeniería de estructuras y materiales, con especial atención a la caracterización y modelado de materiales compuestos.</p>
       </div>
-    </header>
+    </section>
 
-    <section class="projects" aria-label="Proyectos de investigación">
-      <a class="project-card" href="/CORA/" aria-label="Acceder al proyecto CORA">
-        <span class="project-number">01</span>
-        <div>
-          <h2>CORA</h2>
-          <p>Proyecto de investigación</p>
+    <section class="projects-section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Líneas activas y proyectos desarrollados</p>
+            <h2>Proyectos destacados</h2>
+          </div>
+          <p class="section-note">Selecciona un proyecto para acceder a su página web.</p>
         </div>
-        <span class="arrow" aria-hidden="true">→</span>
-      </a>
 
-      <a class="project-card" href="/RENO/" aria-label="Acceder al proyecto RENO">
-        <span class="project-number">02</span>
-        <div>
-          <h2>RENO</h2>
-          <p>Proyecto de investigación</p>
+        <div class="projects">
+          <a class="project-card card-cora" href="/CORA/" aria-label="Acceder al proyecto CORA">
+            <div class="card-logo-wrap">
+              <img class="project-logo" src="assets/img/logo-cora.png" alt="Logo del proyecto CORA">
+            </div>
+            <div class="card-body">
+              <div class="badges">
+                <span class="badge badge-type">Proyecto regional · JCCM</span>
+                <span class="badge badge-active">En ejecución</span>
+              </div>
+              <h3>CORA</h3>
+              <p class="project-title">Estudio de la respuesta a cortadura en estructuras laminares fabricadas con material compuesto</p>
+              <dl class="project-meta">
+                <div><dt>Periodo</dt><dd>01/05/2024 — 30/04/2027</dd></div>
+                <div><dt>Referencia</dt><dd>SBPLY/23/180225/000114</dd></div>
+              </dl>
+              <span class="project-link">Visitar proyecto <span aria-hidden="true">→</span></span>
+            </div>
+          </a>
+
+          <a class="project-card card-reno" href="/RENO/" aria-label="Acceder al proyecto RENO">
+            <div class="card-logo-wrap">
+              <img class="project-logo" src="assets/img/logo-reno.png" alt="Logo del proyecto RENO">
+            </div>
+            <div class="card-body">
+              <div class="badges">
+                <span class="badge badge-type">Generación de Conocimiento · AEI</span>
+                <span class="badge badge-active">En ejecución</span>
+              </div>
+              <h3>RENO</h3>
+              <p class="project-title">Respuesta no lineal gobernada por la cortadura en materiales compuestos considerando cargas biaxiales y el efecto de radiación ionizante</p>
+              <dl class="project-meta">
+                <div><dt>Periodo</dt><dd>01/09/2023 — 31/08/2026</dd></div>
+                <div><dt>Referencia</dt><dd>PID2022-137387OB-I00</dd></div>
+              </dl>
+              <span class="project-link">Visitar proyecto <span aria-hidden="true">→</span></span>
+            </div>
+          </a>
+
+          <a class="project-card card-bishear" href="/BISHEAR/" aria-label="Acceder al proyecto BISHEAR">
+            <div class="card-logo-wrap">
+              <img class="project-logo project-logo-bishear" src="assets/img/logo-bishear.png" alt="Logo del proyecto BISHEAR">
+            </div>
+            <div class="card-body">
+              <div class="badges">
+                <span class="badge badge-type">Prueba de Concepto · AEI</span>
+                <span class="badge badge-finished">Finalizado</span>
+              </div>
+              <h3>BISHEAR</h3>
+              <p class="project-title">Hacia la normalización del ensayo biaxial tracción-compresión para determinar propiedades mecánicas ante estados de cortadura pura en el plano</p>
+              <dl class="project-meta">
+                <div><dt>Periodo</dt><dd>01/12/2021 — 30/09/2024</dd></div>
+                <div><dt>Referencia</dt><dd>PDC2021-121154-I00</dd></div>
+              </dl>
+              <span class="project-link">Visitar proyecto <span aria-hidden="true">→</span></span>
+            </div>
+          </a>
+
+          <!-- CARLA: el logo ya está en assets/img/logo-carla.png. Añadir una cuarta tarjeta cuando se conozcan fechas, referencia y tipo de proyecto. -->
         </div>
-        <span class="arrow" aria-hidden="true">→</span>
-      </a>
-
-      <a class="project-card" href="/BISHEAR/" aria-label="Acceder al proyecto BISHEAR">
-        <span class="project-number">03</span>
-        <div>
-          <h2>BISHEAR</h2>
-          <p>Proyecto de investigación</p>
-        </div>
-        <span class="arrow" aria-hidden="true">→</span>
-      </a>
-
-      <!--
-      Para añadir CARLA en el futuro, duplica una tarjeta y usa:
-      href="/carla/", número 04 y título CARLA.
-      -->
-
-      <!--
-      <a class="project-card" href="/CARLA/" aria-label="Acceder al proyecto CARLA">
-        <span class="project-number">04</span>
-        <div>
-          <h2>CARLA</h2>
-          <p>Proyecto de investigación</p>
-        </div>
-        <span class="arrow" aria-hidden="true">→</span>
-      </a>
-      -->
-      
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>COMES · Universidad de Castilla-La Mancha</p>
+    <div class="container footer-inner">
+      <p>© 2026 Grupo COMES · Universidad de Castilla-La Mancha</p>
+      <p class="credit">Diseño y desarrollo web: Sergio Horta Muñoz</p>
+    </div>
   </footer>
 </body>
 </html>
